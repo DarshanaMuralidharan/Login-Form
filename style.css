@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin:0;
+font-family: Poppins, sans-serif;
+box-sizing: border-box;
+
+}
+
+body{
+    background-color: rgb(177, 118, 233);
+    overflow: hidden;
+    
+    
+}
+
+.container{
+    max-width: 440px;
+    padding: 0 20px;
+    margin: 170px auto;
+}
+.wrapper{
+   width:100%;
+   background: white;
+   border-radius: 4px;
+   padding:0 0 5px;
+
+}
+
+.wrapper .login{
+    background-color: blueviolet;
+    margin-bottom: 30px;
+    color: white;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.wrapper form{
+    padding: 20px;
+}
+
+.wrapper form .data{
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.wrapper .data input{
+    width: 95%;
+    padding-left: 60px;
+    height: 40px;
+}
+
+.wrapper .data i{
+    background-color: blueviolet;
+    width:47px;
+    height: 100%;
+    position: absolute;
+    border:1px solid blueviolet;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.wrapper form .pass{
+    margin: -10px 0 15px 0;
+}
+.wrapper form .pass a{
+color: blueviolet;
+text-decoration: none;
+font-size: 12px;
+}
+
+.wrapper form .pass a:hover{
+    text-decoration: underline;
+}
+
+.wrapper form .button input{
+    padding-left: 0px;
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    color: white;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.wrapper form .button input:hover{
+    background-color: rgb(194, 143, 240);
+    color:black
+}
+
+.wrapper form .signup{
+    margin: -10px 0 15px 0;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper form .signup a{
+color: blueviolet;
+text-decoration: none;
+font-size: 12px;
+}
+
+.wrapper form .signup a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
